@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "Any": {
+      "template-format": "template/instance-template-format.html",
+      "template-base": "template/instance-template-base.html"
+    },
+    "StructureDefinition": {
+      "template-base": "template/instance-template-sd.html"
+    }
+  }
+}
