@@ -45,5 +45,8 @@
 			"maps": true,
 			"xref": true
 		}
-	}
+	},
+  "scripts" : {
+    "onLoad" : "scripts/onload.ant.xml"
+  }
 }
