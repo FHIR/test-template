@@ -6,5 +6,6 @@
     <script language="javascript" src="${ig.scripts}/onload.js"/>
     <!-- second, run an xslt. note the output of this task makes the other task output irrelevant -->
     <xslt in="${onLoad.ig.source}xml" out="${onLoad.ig.dest}xml" style="${ig.scripts}/onload.xslt"/>
+    <!--test-->
   </target>
 </project>
