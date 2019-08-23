@@ -46,10 +46,8 @@
 			"xref": true
 		}
 	},
-  "scripts" : {
-    "onLoad" : "scripts/build.ant.xml#onLoad"
-    "onGenerate" : "scripts/build.ant.xml#onGenerate"
-    "onJekyll" : "scripts/build.ant.xml#onJekyll"
-    "onCheck" : "scripts/build.ant.xml#onCheck"
+	"script": "scripts/build.ant.xml",
+	"targets": {
+		"onLoad": "onLoad"
   }
 }
