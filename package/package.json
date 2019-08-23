@@ -1,6 +1,6 @@
 {
   "name": "fhir.test.template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "fhir.template",
   "license": "CC0-1.0",
   "description": "FHIR Test Template",
