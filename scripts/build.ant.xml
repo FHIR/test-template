@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- a simple Ant script that runs a single javascript for loading the IG -->
-<project name="ig-test" default="onload" basedir=".">
+<project name="ig-test" default="onLoad" basedir=".">
   <target name="onLoad">
     <!-- first, run a js -->
     <script language="javascript" src="${ig.scripts}/onload.js"/>
